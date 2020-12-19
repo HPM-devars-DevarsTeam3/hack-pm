@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form, Input, InputNumber, Button } from 'antd';
+import {Link} from 'react-router-dom'
 const layout = {
     labelCol: {
         span: 8,
@@ -70,6 +71,9 @@ const Respuesta = () => {
                     Submit
         </Button>
             </Form.Item>
+            <Link to='/'>
+                Home
+            </Link>
         </Form>
     );
 };
